@@ -25,13 +25,13 @@ public class RawMaterials extends StationBase
 	private Texture metalIcon = new Texture("icons/metalIcon.png");
 
 	private int plasticStored = 100;
-	private int plasticCost = 3;
+	private int plasticCost = 15;
 	private int glassStored = 100;
-	private int glassCost = 6;
+	private int glassCost = 30;
 	private int circuitryStored = 100;
-	private int circuitryCost = 10;
+	private int circuitryCost = 50;
 	private int metalStored = 100;
-	private int metalCost = 4;
+	private int metalCost = 20;
 
 	public RawMaterials(Vector2 location)
 	{

@@ -19,7 +19,7 @@ public class CoalDump extends StationBase
 	public void onVisitByWorker(Entity entity)
 	{
 		if(this.isBuilt)
-			((Worker) entity).giveResource("Coal", 10);
+			((Worker) entity).giveResource("Coal", 1);
 	}
 
 	public void render(float xoff, float yoff)
